@@ -10,7 +10,7 @@ import java.io.*;
 
 public class BrainClient {
     private static final String BRAIN_ID="Fenzo-Brain";
-    private static final String BRAIN_URL="http://127.0.0.1:3001";
+    private static final String BRAIN_URL="http://172.31.1.11:3001";
 
     private static final String API_PREFIX="/api/v1";
     private static final String REGISTER_PATH=API_PREFIX+"/register";
